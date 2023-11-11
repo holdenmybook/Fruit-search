@@ -1,0 +1,33 @@
+/* Style for the autocomplete suggestions */
+.body {
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to bottom, whitesmoke, gray);
+    border-radius: 5px;
+}
+
+#searchInput {
+    width: 200px;
+    padding: 10px;
+    border: none;
+}
+
+.autocomplete-dropdown {
+    position: absolute;
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.autocomplete-dropdown li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.autocomplete-dropdown li:hover {
+    background-color: #FFA500;
+}
